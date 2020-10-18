@@ -1,24 +1,22 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Row from "./components/Row";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Row title="Trending" />
+      <Row title="Top Rated" />
+      <Row title="Science Fiction Movies" />
+      <Row title="Documentary Movies" />
+      <Row title="Comedy Movies" />
+      <Row title="Action Movies" />
+      <Row title="Horror Movies" />
+      <Row title="Fantasy Movies" />
+      <Row title="Family Movies" />
+      <Row title="Drama Movies" />
+      <Row title="War Movies" />
+      <Row title="History Movies" />
     </div>
   );
 }
