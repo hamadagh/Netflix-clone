@@ -22,17 +22,17 @@ function App() {
   return (
     <div className="App">
       <Row title="Trending" fetchUrl={fetchTrending} />
-      <Row title="Top Rated" fetchUrl={fetchTrending} />
-      <Row title="Science Fiction Movies" fetchUrl={fetchTrending} />
-      <Row title="Documentary Movies" fetchUrl={fetchTrending} />
-      <Row title="Comedy Movies" fetchUrl={fetchTrending} />
-      <Row title="Action Movies" fetchUrl={fetchTrending} />
-      <Row title="Horror Movies" fetchUrl={fetchTrending} />
-      <Row title="Fantasy Movies" fetchUrl={fetchTrending} />
-      <Row title="Family Movies" fetchUrl={fetchTrending} />
-      <Row title="Drama Movies" fetchUrl={fetchTrending} />
-      <Row title="War Movies" fetchUrl={fetchTrending} />
-      <Row title="History Movies" fetchUrl={fetchTrending} />
+      <Row title="Top Rated" fetchUrl={fetchTopRated} />
+      <Row title="Science Fiction Movies" fetchUrl={fetchScienceFicton} />
+      <Row title="Documentary Movies" fetchUrl={fetchDocumentary} />
+      <Row title="Comedy Movies" fetchUrl={fetchComedy} />
+      <Row title="Action Movies" fetchUrl={fetchAction} />
+      <Row title="Horror Movies" fetchUrl={fetchHorror} />
+      <Row title="Fantasy Movies" fetchUrl={fetchFantasy} />
+      <Row title="Family Movies" fetchUrl={fetchFamily} />
+      <Row title="Drama Movies" fetchUrl={fetchDrama} />
+      <Row title="War Movies" fetchUrl={fetchWar} />
+      <Row title="History Movies" fetchUrl={fetchHistory} />
     </div>
   );
 }
