@@ -19,7 +19,7 @@ function Row({ title, fetchUrl }) {
   if (movies) {
     return (
       <div className="row">
-        <h2>{title}</h2>
+        <h2 className="movie-title">{title}</h2>
         <div className="movies-list">
           {movies.map((movie) => (
             <img

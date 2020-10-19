@@ -30,7 +30,7 @@ function Banner() {
           backgroundPosition: "cover",
         }}
       >
-        <div className="banner-decription">
+        <div className="banner-content">
           <h2 className="banner-title">
             {movie?.name || movie?.original_title || movie?.original_name}
           </h2>
@@ -40,6 +40,7 @@ function Banner() {
           </div>
           <p className="banner-description">{movie.overview}</p>
         </div>
+        <div className="banner-fade-bottom"></div>
       </div>
     );
   } else {

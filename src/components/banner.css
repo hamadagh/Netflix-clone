@@ -1,8 +1,11 @@
 .banner {
-  height: 45vh;
+  height: 50vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+}
+.banner-content {
+  position: relative;
+  top: 140px;
 }
 .banner-title {
   color: white;
@@ -19,7 +22,7 @@
 }
 .banner-buttons {
   margin-bottom: 10px;
-  margin-right: 10px;
+  margin-left: 10px;
 }
 .banner-button {
   cursor: pointer;
@@ -39,4 +42,13 @@
   color: #000;
   background-color: #e6e6e6;
   transition: all 0.2s;
+}
+.banner-fade-bottom {
+  height: 50vh;
+  background-image: linear-gradient(
+    180deg,
+    transparent,
+    rgba(37, 37, 37, 0.61),
+    #111
+  );
 }

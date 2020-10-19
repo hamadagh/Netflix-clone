@@ -7,6 +7,10 @@
 .movies-list::-webkit-scrollbar {
   display: none;
 }
+.movie-title {
+  color: white;
+  margin-left: 10px;
+}
 .movie-img {
   object-fit: contain;
   height: 300px;
