@@ -1,5 +1,6 @@
 import React from "react";
 import Row from "./components/Row";
+import Banner from "./components/Banner";
 import requests from "./requests";
 import "./App.css";
 
@@ -21,6 +22,7 @@ const {
 function App() {
   return (
     <div className="App">
+      <Banner />
       <Row title="Trending" fetchUrl={fetchTrending} />
       <Row title="Top Rated" fetchUrl={fetchTopRated} />
       <Row title="Science Fiction Movies" fetchUrl={fetchScienceFicton} />

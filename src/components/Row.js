@@ -26,7 +26,7 @@ function Row({ title, fetchUrl }) {
               className="movie-img"
               src={`${base_url}${movie.poster_path}`}
               alt={movie.name}
-              key={movie.name}
+              key={movie.id}
             />
           ))}
         </div>
