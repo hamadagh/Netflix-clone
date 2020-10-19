@@ -1,3 +1,42 @@
 .banner {
-  height: 35vh;
+  height: 45vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.banner-title {
+  color: white;
+  font-weight: bold;
+  font-size: 45px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.banner-description {
+  color: white;
+  max-width: 450px;
+  margin-left: 10px;
+  font-size: 13px;
+}
+.banner-buttons {
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+.banner-button {
+  cursor: pointer;
+  color: #fff;
+  outline: none;
+  border: none;
+  font-weight: 700;
+  border-radius: 0.2vw;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-right: 1rem;
+  padding-top: 0.5rem;
+  background-color: rgba(51, 51, 51, 0.5);
+  padding-bottom: 0.5rem;
+}
+.banner-button:hover {
+  color: #000;
+  background-color: #e6e6e6;
+  transition: all 0.2s;
 }

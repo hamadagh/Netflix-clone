@@ -31,12 +31,14 @@ function Banner() {
         }}
       >
         <div className="banner-decription">
-          <h2>{movie.name}</h2>
+          <h2 className="banner-title">
+            {movie?.name || movie?.original_title || movie?.original_name}
+          </h2>
           <div className="banner-buttons">
             <button className="banner-button">Play</button>
             <button className="banner-button">Add to favorites</button>
           </div>
-          <p>{movie.overview}</p>
+          <p className="banner-description">{movie.overview}</p>
         </div>
       </div>
     );
