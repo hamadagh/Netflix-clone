@@ -16,7 +16,7 @@ function Navbar() {
   }, []);
   return (
     <div className={`navbar ${show && "navbar-black"}`}>
-      <img className="nav-logo" />
+      <img className="nav-logo" alt="" />
       <span className="nav-username">Username</span>
     </div>
   );

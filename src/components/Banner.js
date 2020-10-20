@@ -19,7 +19,6 @@ function Banner() {
     fetchData();
   }, []);
 
-  console.log(movie);
   if (movie) {
     return (
       <div
