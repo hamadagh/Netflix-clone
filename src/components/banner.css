@@ -1,7 +1,8 @@
 .banner {
-  height: 50vh;
+  height: 60vh;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 }
 .banner-content {
   position: relative;

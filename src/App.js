@@ -2,7 +2,6 @@ import React from "react";
 import Row from "./components/Row";
 import Banner from "./components/Banner";
 import requests from "./requests";
-import Navbar from "./components/Navbar";
 import "./App.css";
 
 const {
@@ -23,7 +22,6 @@ const {
 function App() {
   return (
     <div className="App">
-      <Navbar />
       <Banner />
       <Row title="Trending" fetchUrl={fetchTrending} />
       <Row title="Top Rated" fetchUrl={fetchTopRated} />
